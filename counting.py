@@ -13,11 +13,12 @@ def main():
     value = input("Press Enter to print all the numbers between 1000-2000.")
     for num in range(1000, 2001):
         if num % 5 == 0 and num != 1000:
-            print("\n{0} ".format(num), end = "")
+            print("\n{0} ".format(num), end="")
         else:
-            print("{0} ".format(num), end = "")
+            print("{0} ".format(num), end="")
     print("")
     print("\nDone.")
+
 
 if __name__ == "__main__":
     main()
